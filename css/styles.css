@@ -164,7 +164,14 @@ footer {
   }
 
   /* %%%%%%%%%% Footer %%%%%%%%%% */
+  .top {
+    display: none;
+  }
 
+  .full {
+    display: inline-block;
+    margin-left: 20px;
+  }
 
 }
 
