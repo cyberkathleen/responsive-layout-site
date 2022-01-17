@@ -4,9 +4,17 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   max-width: 1024px;
+  font-family: 'Lato', sans-serif;
+  color: black;
 }
 
 nav {
@@ -24,6 +32,8 @@ ul {
 
 a {
   text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,6 +108,24 @@ main {
 
 .box-6 {
   background-color: #9A2617;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Footer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding: 0 20px;
+  height: 100px;
+  background-color: #107896;
+}
+
+.full {
+  display: none;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
