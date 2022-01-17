@@ -132,3 +132,55 @@ footer {
     Media Queries
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
+@media screen and (min-width: 768px) {
+  /* %%%%%%%%%% Header %%%%%%%%%% */
+  .top-nav {
+    margin-top: 0;
+  }
+
+  .top-nav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
+    background-color: transparent;
+  }
+
+  .top-nav li:last-child {
+    margin-right: 0;
+  }
+
+  .top-nav a {
+    color: #fff;
+  }
+
+  /* %%%%%%%%%% Main %%%%%%%%%% */
+
+
+
+  /* %%%%%%%%%% Footer %%%%%%%%%% */
+
+
+}
+
+@media screen and (min-width: 1024px) {
+/* %%%%%%%%%% Header %%%%%%%%%% */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav,
+.top-nav li {
+  width: initial;
+  margin-bottom: 0;
+}
+
+/* %%%%%%%%%% Main %%%%%%%%%% */
+
+
+
+/* %%%%%%%%%% Footer %%%%%%%%%% */
+
+  
+}
