@@ -17,10 +17,9 @@ body {
 
 nav {
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
   letter-spacing: .05em;
   background-color: #829356;
-  padding: 25px;
+  padding: 20px;
 }
 
 ul {
@@ -30,7 +29,6 @@ ul {
 
 a {
   text-decoration: none;
-  text-transform: uppercase;
   color: white;
 }
 
@@ -39,11 +37,13 @@ img {
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    Navigation
+    Header
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
+/* %%%%%%%%%% Navigation %%%%%%%%%% */
 h1, .top-nav {
   text-align: center;
+  font-weight: 900;
 }
 
 .top-nav {
@@ -66,6 +66,11 @@ h1, .top-nav {
 
 h1 a, .top-nav a {
   color: #000;
+}
+
+/* %%%%%%%%%% Intro %%%%%%%%%% */
+.intro {
+  text-align: center;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -126,6 +131,10 @@ footer {
   padding: 0 20px;
   height: 100px;
   background-color: #107896;
+}
+
+.footer-nav {
+  text-transform: uppercase;
 }
 
 .full {
