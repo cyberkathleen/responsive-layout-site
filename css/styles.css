@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,7 +10,7 @@ body {
 }
 
 nav {
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   letter-spacing: .05em;
   background-color: #829356;
@@ -53,3 +55,52 @@ h1, .top-nav {
 h1 a, .top-nav a {
   color: #000;
 }
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Main
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+main {
+  max-width: 1100px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.col {
+  margin: 10px;
+  min-height: 250px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+
+.box-1 {
+  background-color: #093145;
+}
+
+.box-2 {
+  background-color: #3C6478;
+}
+
+.box-3 {
+  background-color: #107896;
+}
+
+.box-4 {
+  background-color: #829356;
+}
+
+.box-5 {
+  background-color: #C2571A;
+}
+
+.box-6 {
+  background-color: #9A2617;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Media Queries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
