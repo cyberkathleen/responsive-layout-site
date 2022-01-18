@@ -103,7 +103,7 @@ main {
 }
 
 main h2 {
-  font-size: 14px;
+  font-size: 0.875px;
   font-weight: 800;
   text-transform: uppercase;
   text-align: center;
@@ -119,18 +119,20 @@ h2#portfolio {
 }
 
 .col {
-  margin: 10px;
+  margin: 35px 10px;
   min-height: 250px;
   text-align: center;
 }
 
 .col h3 {
+  margin: 20px 0 15px;
   font-weight: 600;
   letter-spacing: -0.03rem;
 }
 
 .col p {
-  font-size: 14px;
+  margin: 10px;
+  font-size: 0.875rem;
 }
 
 .box-1 {
