@@ -103,7 +103,7 @@ main {
 }
 
 main h2 {
-  font-size: 0.875px;
+  font-size: 0.875rem;
   font-weight: 800;
   text-transform: uppercase;
   text-align: center;
@@ -115,7 +115,7 @@ h2#portfolio {
 }
 
 .container {
-  background-color: cornflowerblue;
+  background-color: cornflowerblue; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .col {
@@ -162,10 +162,26 @@ h2#portfolio {
 /* %%%%%%%%%% Contact %%%%%%%%%% */
 #contact {
   margin: 10px;
+  padding: 50px 0;
+  text-align: center;
   background-color: cornflowerblue;/* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
+#contact h2 {
+  margin-bottom: 40px;
+}
+
+#contact p {
+  margin-bottom: 30px;
+  letter-spacing: -0.04rem;
+}
+
+#contact li {
+  margin: 15px 0;
+}
+
 #contact a {
+  margin-left: 10px;
   font-weight: bold;
 }
 
