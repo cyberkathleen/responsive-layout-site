@@ -6,17 +6,16 @@
 
 html, body {
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #4A4A4A;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
-  color: black;
 }
 
 nav {
-  font-family: 'Roboto', sans-serif;
   letter-spacing: .05em;
   padding: 20px;
 }
@@ -28,7 +27,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #4A4A4A;
 }
 
 img {
@@ -44,6 +43,10 @@ header {
 }
 
 /* %%%%%%%%%% Navigation %%%%%%%%%% */
+h1 {
+  letter-spacing: .1px;
+}
+
 h1, .top-nav {
   text-align: center;
   font-weight: 900;
@@ -57,8 +60,9 @@ h1, .top-nav {
   padding: 10px 0;
   margin: 5px auto;
   background-color: #fff;
+  font-weight: 800;
   font-size: 14px;
-  letter-spacing: .02rem;
+  letter-spacing: .01rem;
 }
 
 .top-nav, .top-nav li {
@@ -67,10 +71,6 @@ h1, .top-nav {
 
 .top-nav a {
   text-transform: uppercase;
-}
-
-h1 a, .top-nav a {
-  color: #4A4A4A;
 }
 
 /* %%%%%%%%%% Intro %%%%%%%%%% */
@@ -87,6 +87,7 @@ h1 a, .top-nav a {
 .intro p {
   margin: 20px auto;
   line-height: 1.5;
+  letter-spacing: -0.02rem;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,13 +99,12 @@ main {
   padding: 10px;
   margin: 0 auto;
   max-width: 1024px;
-  font-family: 'Roboto', sans-serif;
-  background-color: cornflowerblue; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: coral; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 main h2 {
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
   text-align: center;
 }
@@ -115,45 +115,56 @@ h2#portfolio {
 }
 
 .container {
-  background-color: antiquewhite;
+  background-color: cornflowerblue;
 }
 
 .col {
   margin: 10px;
   min-height: 250px;
-  color: white;
   text-align: center;
-  letter-spacing: 1px;
+}
+
+.col h3 {
+  font-weight: 600;
+  letter-spacing: -0.03rem;
+}
+
+.col p {
+  font-size: 14px;
 }
 
 .box-1 {
-  background-color: #093145; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .box-2 {
-  background-color: #3C6478; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .box-3 {
-  background-color: #107896; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .box-4 {
-  background-color: #829356; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .box-5 {
-  background-color: #C2571A; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .box-6 {
-  background-color: #9A2617; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 /* %%%%%%%%%% Contact %%%%%%%%%% */
 #contact {
   margin: 10px;
-  background-color: coral;/* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: cornflowerblue;/* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+}
+
+#contact a {
+  font-weight: bold;
 }
 
 
@@ -171,8 +182,17 @@ footer {
   background-color: #107896;
 }
 
+footer h2 {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: -0.02;
+}
+
 .footer-nav {
   text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: -0.03rem;
 }
 
 .full {
