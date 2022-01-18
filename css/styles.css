@@ -11,14 +11,13 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
 }
 
 nav {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: .05em;
-  background-color: #829356;
   padding: 20px;
 }
 
@@ -40,6 +39,10 @@ img {
     Header
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
+header {
+  background-color: #FAFAFA;
+}
+
 /* %%%%%%%%%% Navigation %%%%%%%%%% */
 h1, .top-nav {
   text-align: center;
@@ -54,6 +57,8 @@ h1, .top-nav {
   padding: 10px 0;
   margin: 5px auto;
   background-color: #fff;
+  font-size: 14px;
+  letter-spacing: .02rem;
 }
 
 .top-nav, .top-nav li {
@@ -65,12 +70,23 @@ h1, .top-nav {
 }
 
 h1 a, .top-nav a {
-  color: #000;
+  color: #4A4A4A;
 }
 
 /* %%%%%%%%%% Intro %%%%%%%%%% */
 .intro {
   text-align: center;
+  padding: 20px;
+  color: #7F7F7F;
+}
+
+.intro img {
+  max-width: 70%;
+}
+
+.intro p {
+  margin: 20px auto;
+  line-height: 1.5;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -82,7 +98,7 @@ main {
   padding: 10px;
   margin: 0 auto;
   max-width: 1024px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: chartreuse; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
