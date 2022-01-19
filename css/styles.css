@@ -11,6 +11,7 @@ html, body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   color: #4A4A4A;
+  background-color: #FAFAFA;
 }
 
 body {
@@ -114,10 +115,6 @@ h1, .top-nav {
     Main
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
-main {
-  /* background-color: aliceblue; */ /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
-}
-
 main h2 {
   font-size: 0.875rem;
   font-weight: 800;
@@ -130,14 +127,11 @@ section#portfolio {
   padding: 10px;
   margin: 0 auto;
   max-width: 1024px;
+  background-color: #fff;
 }
 
 #portfolio h2 {
   margin: 40px 0;
-}
-
-.container {
-  /* background-color: cornflowerblue; */ /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .col {
@@ -158,29 +152,29 @@ section#portfolio {
   font-size: 0.875rem;
 }
 
-.box-1 {
-  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+/* .box-1 {
+  background-color: white;
 }
 
 .box-2 {
-  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white;
 }
 
 .box-3 {
-  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white;
 }
 
 .box-4 {
-  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white;
 }
 
 .box-5 {
-  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: white;
 }
 
 .box-6 {
-  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
-}
+  background-color: white;
+} */
 
 /* %%%%%%%%%% Contact %%%%%%%%%% */
 #contact {
@@ -228,7 +222,7 @@ footer {
 footer h2 {
   font-size: 0.875rem;
   font-weight: 800;
-  letter-spacing: -0.02;
+  letter-spacing: -0.02rem;
 }
 
 .footer-nav {
@@ -371,7 +365,11 @@ main h2 {
   font-size: 1rem;
 }
 
-section#portfolio,
+section#portfolio {
+  max-width: 964px;
+  padding-bottom: 0;
+}
+
 div.container {
   padding-right: 30px;
   padding-left: 30px;
@@ -384,7 +382,7 @@ div.container {
 }
 
 .col p {
-  max-width: 90%;
+  max-width: 85%;
   font-size: 1rem;
 }
 
