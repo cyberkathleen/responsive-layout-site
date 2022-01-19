@@ -183,7 +183,7 @@ section#portfolio {
 
 /* %%%%%%%%%% Contact %%%%%%%%%% */
 #contact {
-  padding: 60px 20px 50px;
+  padding: 60px 0 50px;
   text-align: center;
   color: #7F7F7F;
   background-color: #FAFAFA;
@@ -194,7 +194,8 @@ section#portfolio {
 }
 
 #contact p {
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
+  max-width: 90%;
   letter-spacing: -0.04rem;
 }
 
@@ -309,10 +310,18 @@ footer h2 {
     font-size: 1.25rem;;
   }
 
+  #contact p {
+    max-width: 70%;
+  }
+
+  hr {
+    width: calc(100% - 60px);
+  }
+
   /* %%%%%%%%%% Footer %%%%%%%%%% */
-footer {
-  padding-bottom: 80px;
-}
+  footer {
+    padding: 30px 30px 80px;
+  }
 
   .top {
     display: none;
