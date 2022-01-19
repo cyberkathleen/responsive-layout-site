@@ -45,6 +45,7 @@ hr {
   align-self: center;
   border: 0;
   border-top: 1px solid #E8E8E8;
+  background-color: #FAFAFA;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -112,7 +113,7 @@ h1, .top-nav {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 main {
-  background-color: coral; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  /* background-color: coral; */ /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 main h2 {
@@ -135,7 +136,7 @@ section#portfolio {
 }
 
 .container {
-  background-color: cornflowerblue; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  /* background-color: cornflowerblue; */ /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .col {
@@ -185,7 +186,7 @@ section#portfolio {
   padding: 60px 20px 50px;
   text-align: center;
   color: #7F7F7F;
-  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: #FAFAFA;
 }
 
 #contact h2 {
@@ -219,6 +220,7 @@ footer {
   margin-top: auto;
   padding: 30px 15px;
   height: 100px;
+  background-color: #FAFAFA;
 }
 
 footer h2 {
