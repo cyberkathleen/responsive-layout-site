@@ -397,9 +397,17 @@ div.container {
   font-weight: 800;
 }
 
+hr {
+  width: calc(100% - 120px);
+}
+
 /* %%%%%%%%%% Footer %%%%%%%%%% */
   footer {
-    
+    padding: 30px 60px;
+  }
+
+  .footer-nav {
+    font-weight: 700;
   }
   
 }
