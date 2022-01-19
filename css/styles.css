@@ -1,3 +1,6 @@
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    General
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +20,10 @@ body {
 
 nav {
   letter-spacing: .05em;
-  padding: 20px;
+}
+
+h2 {
+  color: #4A4A4A;
 }
 
 ul {
@@ -34,6 +40,13 @@ img {
   width: 100%;
 }
 
+hr {
+  width: calc(100% - 30px);
+  align-self: center;
+  border: 0;
+  border-top: 1px solid #E8E8E8;
+}
+
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     Header
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
@@ -43,6 +56,10 @@ header {
 }
 
 /* %%%%%%%%%% Navigation %%%%%%%%%% */
+header nav {
+  padding: 20px;
+}
+
 h1 {
   letter-spacing: .1px;
 }
@@ -95,10 +112,6 @@ h1, .top-nav {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 main {
-  max-width: 1100px;
-  padding: 10px;
-  margin: 0 auto;
-  max-width: 1024px;
   background-color: coral; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
@@ -110,7 +123,14 @@ main h2 {
 }
 
 /* %%%%%%%%%% Portfolio %%%%%%%%%% */
-h2#portfolio {
+section#portfolio {
+  max-width: 1100px;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+#portfolio h2 {
   margin: 40px 0;
 }
 
@@ -120,6 +140,7 @@ h2#portfolio {
 
 .col {
   margin: 35px 10px;
+  padding-bottom: 15px;
   min-height: 250px;
   text-align: center;
 }
@@ -161,14 +182,14 @@ h2#portfolio {
 
 /* %%%%%%%%%% Contact %%%%%%%%%% */
 #contact {
-  margin: 10px;
-  padding: 50px 0;
+  padding: 60px 20px 50px;
   text-align: center;
-  background-color: cornflowerblue;/* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  color: #7F7F7F;
+  background-color: white; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 #contact h2 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 #contact p {
@@ -183,6 +204,7 @@ h2#portfolio {
 #contact a {
   margin-left: 10px;
   font-weight: bold;
+  color: #7F7F7F;
 }
 
 
@@ -195,21 +217,20 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
-  padding: 0 20px;
+  padding: 30px 15px;
   height: 100px;
-  background-color: #107896;
 }
 
 footer h2 {
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 800;
   letter-spacing: -0.02;
 }
 
 .footer-nav {
   text-transform: uppercase;
-  font-size: 0.875rem;
-  font-weight: 700;
+  font-size: 0.8rem;
+  font-weight: 800;
   letter-spacing: -0.03rem;
 }
 
