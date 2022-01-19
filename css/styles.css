@@ -113,7 +113,7 @@ h1, .top-nav {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 main {
-  background-color: aliceblue; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  /* background-color: aliceblue; */ /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 main h2 {
@@ -136,12 +136,12 @@ section#portfolio {
 }
 
 .container {
-  background-color: cornflowerblue; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  /* background-color: cornflowerblue; */ /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .col {
-  margin: 35px 10px;
-  padding-bottom: 15px;
+  margin: 30px 10px;
+  padding-bottom: 20px;
   min-height: 250px;
   text-align: center;
 }
@@ -303,7 +303,7 @@ footer h2 {
 
   .container p {
     margin: 10px auto 0;
-    width: 75%;
+    max-width: 75%;
   }
 
   #contact {
@@ -365,11 +365,37 @@ nav {
 }
 
 /* %%%%%%%%%% Main %%%%%%%%%% */
-.col {
-  flex-basis: calc(33.333% - 20px);
+main h2 {
+  font-size: 1rem;
 }
 
+section#portfolio,
+div.container {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 0;
+}
 
+.col {
+  flex-basis: calc(33.333% - 10px);
+  margin-bottom: 40px;
+}
+
+.col p {
+  max-width: 90%;
+}
+
+#contact {
+  font-size: 1.4rem;
+}
+
+#contact p {
+  max-width: 65%;
+}
+
+#contact a {
+  font-weight: 800;
+}
 
 /* %%%%%%%%%% Footer %%%%%%%%%% */
   footer {
