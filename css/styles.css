@@ -113,7 +113,7 @@ h1, .top-nav {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 main {
-  /* background-color: aliceblue; */ /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: aliceblue; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 main h2 {
@@ -136,7 +136,7 @@ section#portfolio {
 }
 
 .container {
-  /* background-color: cornflowerblue; */ /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
+  background-color: cornflowerblue; /* XXXXXXXXXXXXXXXXXX DELETE XXXXXXXXXXXXXXXXXXXXX */
 }
 
 .col {
@@ -335,25 +335,45 @@ footer h2 {
 }
 
 @media screen and (min-width: 1024px) {
-/* %%%%%%%%%% Navigation %%%%%%%%%% */
+/* %%%%%%%%%% Header %%%%%%%%%% */
+header {
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.125rem;
 }
 
 .top-nav,
 .top-nav li {
   width: initial;
   margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.05rem;
 }
 
-/* %%%%%%%%%% Portfolio %%%%%%%%%% */
+.intro p {
+  font-size: 1.3rem;
+}
+
+/* %%%%%%%%%% Main %%%%%%%%%% */
 .col {
   flex-basis: calc(33.333% - 20px);
 }
 
-/* %%%%%%%%%% Footer %%%%%%%%%% */
 
+
+/* %%%%%%%%%% Footer %%%%%%%%%% */
+  footer {
+    
+  }
   
 }
