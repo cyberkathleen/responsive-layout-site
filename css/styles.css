@@ -387,9 +387,9 @@ main h2 {
   font-size: 1rem;
 }
 
-section#portfolio {
+section#portfolio,
+section#skills {
   max-width: 964px;
-  padding-bottom: 0;
 }
 
 div.container {
