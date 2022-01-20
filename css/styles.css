@@ -60,6 +60,7 @@ header {
 /* %%%%%%%%%% Navigation %%%%%%%%%% */
 header nav {
   padding: 20px;
+  background-color: #9AA8DE;
 }
 
 h1 {
@@ -264,8 +265,8 @@ footer h2 {
 
 @media screen and (min-width: 768px) {
   /* %%%%%%%%%% Header %%%%%%%%%% */
-  header {
-    padding: 30px 10px 40px;
+  header nav {
+    padding: 50px 30px 20px;
   }
 
   h1 {
@@ -285,6 +286,10 @@ footer h2 {
 
   .top-nav li:last-child {
     margin-right: 0;
+  }
+
+  div.intro {
+    padding: 20px 30px 50px;
   }
 
   .intro {
@@ -353,8 +358,12 @@ footer h2 {
 
 @media screen and (min-width: 1024px) {
 /* %%%%%%%%%% Header %%%%%%%%%% */
-header {
+/* header {
   padding: 30px 40px 40px;
+} */
+
+header nav {
+  padding: 70px 70px 20px;
 }
 
 h1 {
@@ -366,7 +375,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-size: 1.125rem;
-  margin-bottom: 10px;
 }
 
 .top-nav,
@@ -376,6 +384,10 @@ nav {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: -0.05rem;
+}
+
+div.intro {
+  padding: 20px 70px 70px;
 }
 
 .intro p {
