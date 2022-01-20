@@ -51,14 +51,12 @@ hr {
   background-color: #FAFAFA;
 }
 
-
-/* Text styles */
+/* %%%%%%%%%% Text styles %%%%%%%%%% */
 .top-nav li,
 h2,
 .col p {
   font-size: 0.875rem;
 }
-
 
 h1,
 footer h2 {
@@ -77,7 +75,6 @@ nav li,
   letter-spacing: -0.03rem;
 }
 
-
 .intro p,
 #contact p {
   letter-spacing: -0.02rem;
@@ -87,7 +84,6 @@ nav li,
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     Header styles
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
-
 header {
   background-color: #FAFAFA;
   text-align: center;
@@ -102,13 +98,11 @@ header nav {
 .top-nav {
   margin-top: 30px;
 }
-
 .top-nav li {
   margin: 5px auto;
   padding: 10px 0;
   background-color: #fff;
 }
-
 .top-nav, .top-nav li {
   width: 100%;
 }
@@ -120,11 +114,9 @@ header nav {
   max-width: 1024px;
   color: #7F7F7F;
 }
-
 .intro img {
   max-width: 70%;
 }
-
 .intro p {
   margin: 20px auto;
 }
@@ -135,7 +127,6 @@ header nav {
 main {
   text-align: center;
 }
-
 
 main h2 {
   color: #342647;
@@ -158,16 +149,13 @@ section#skills {
   margin: 30px 10px;
   padding-bottom: 20px;
 }
-
 .col:hover {
   box-shadow: 0 0 20px 1px #000;
 }
-
 .col h3 {
   color: #584177;
   font-weight: 600;
 }
-
 .col p {
   margin: 0 auto;
   max-width: 90%;
@@ -177,7 +165,6 @@ section#skills {
 #portfolio col {
   min-height: 250px;  
 }
-
 #portfolio h3 {
   margin: 20px 0 15px;
 }
@@ -186,7 +173,6 @@ section#skills {
 #skills div.col {
   padding-top: 20px;
 }
-
 #skills col {
   min-height: 150px;
 }
@@ -200,26 +186,21 @@ section#skills {
   color: #7F7F7F;
   background-color: #FAFAFA;
 }
-
 #contact h2 {
   margin-bottom: 30px;
 }
-
 #contact p {
   margin: 0 auto 30px;
   max-width: 90%;
 }
-
 #contact li {
   margin: 15px 0;
 }
-
 #contact a {
   margin-left: 10px;
   font-weight: bold;
   color: #7F7F7F;
 }
-
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     Footer styles
@@ -243,12 +224,19 @@ footer nav {
   display: none;
 }
 
+
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     Media Queries
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
-@media screen and (min-width: 768px) { /* Tablet screen sizes */
-  /* %%%%%%%%%% Header %%%%%%%%%% */
+/* %%%%%%%%%% Tablet view %%%%%%%%%% */
+@media screen and (min-width: 768px) {
+  /* Global */
+  hr {
+    width: calc(100% - 60px);
+  }
+
+  /* Header */
   header nav {
     padding: 50px 30px 20px;
   }
@@ -256,14 +244,12 @@ footer nav {
   .top-nav {
     margin-top: 15px;
   }
-
   .top-nav li {
     display: inline-block;
     width: auto;
     margin-right: 15px;
     background-color: transparent;
   }
-
   .top-nav li:last-child {
     margin-right: 0;
   }
@@ -278,11 +264,9 @@ footer nav {
     justify-content: space-between;
     text-align: left;
   }
-
   .intro img{
     max-width: 40%;
   }
-
   .intro p {
     max-width: 60%;
     padding-right: 20px;
@@ -290,20 +274,19 @@ footer nav {
     font-size: 1.25rem;
   }
 
-  /* %%%%%%%%%% Main %%%%%%%%%% */
+  /* Main */
   .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 20px;
   }
-
+  
   .col {
     flex-basis: calc(50% - 8px);
     margin: 0 0 35px;
   }
-
-  .container p {
+  .col p {
     margin: 10px auto 0;
     max-width: 75%;
   }
@@ -311,16 +294,11 @@ footer nav {
   #contact {
     font-size: 1.25rem;;
   }
-
   #contact p {
     max-width: 70%;
   }
 
-  hr {
-    width: calc(100% - 60px);
-  }
-
-  /* %%%%%%%%%% Footer %%%%%%%%%% */
+  /* Footer */
   footer {
     padding: 30px 30px 80px;
   }
@@ -328,30 +306,33 @@ footer nav {
   .top {
     display: none;
   }
-
   .full {
     display: inline-block;
     margin-left: 20px;
   }
-
 }
 
-@media screen and (min-width: 1024px) { /* Desktop screen sizes */
-/* General */
-nav li {
-  font-weight: 700;
-}
-
-/* %%%%%%%%%% Header %%%%%%%%%% */
-header nav {
-  padding: 70px 70px 20px;
-}
-
+/* %%%%%%%%%% Desktop view %%%%%%%%%% */
+@media screen and (min-width: 1024px) {
+/* Global */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 1.125rem;
+}
+
+nav li {
+  font-weight: 700;
+}
+
+hr {
+  width: calc(100% - 120px);
+}
+
+/* Header */
+header nav {
+  padding: 70px 70px 20px;
 }
 
 .top-nav,
@@ -371,7 +352,7 @@ div.intro {
   font-size: 1.3rem;
 }
 
-/* %%%%%%%%%% Main %%%%%%%%%% */
+/* Main */
 main h2 {
   font-size: 1rem;
 }
@@ -391,7 +372,6 @@ div.container {
   flex-basis: calc(33.333% - 10px);
   margin-bottom: 40px;
 }
-
 .col p {
   max-width: 85%;
   font-size: 1rem;
@@ -400,20 +380,14 @@ div.container {
 #contact {
   font-size: 1.3rem;
 }
-
 #contact p {
   max-width: 55%;
 }
-
 #contact a {
   font-weight: 800;
 }
 
-hr {
-  width: calc(100% - 120px);
-}
-
-/* %%%%%%%%%% Footer %%%%%%%%%% */
+/* Footer */
   footer {
     padding: 30px 60px;
   }
