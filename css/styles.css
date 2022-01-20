@@ -276,7 +276,7 @@ footer h2 {
     Media Queries
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { /* Styles for tablet screens */
   /* %%%%%%%%%% Header %%%%%%%%%% */
   header nav {
     padding: 50px 30px 20px;
@@ -369,12 +369,8 @@ footer h2 {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) { /* Styles for desktop screens */
 /* %%%%%%%%%% Header %%%%%%%%%% */
-/* header {
-  padding: 30px 40px 40px;
-} */
-
 header nav {
   padding: 70px 70px 20px;
 }
@@ -457,5 +453,4 @@ hr {
   .footer-nav {
     font-weight: 700;
   }
-  
 }
