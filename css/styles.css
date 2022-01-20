@@ -123,6 +123,7 @@ main h2 {
   font-weight: 800;
   text-transform: uppercase;
   text-align: center;
+  color: #342647;
 }
 
 section#portfolio,
@@ -146,6 +147,7 @@ section#skills {
 }
 
 .col h3 {
+  color: #584177;
   font-weight: 600;
   letter-spacing: -0.03rem;
 }
