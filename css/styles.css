@@ -53,6 +53,12 @@ hr {
 
 
 /* Text styles */
+.top-nav li,
+h2,
+.col p {
+  font-size: 0.875rem;
+}
+
 
 h1,
 footer h2 {
@@ -100,7 +106,6 @@ header nav {
 .top-nav li {
   margin: 5px auto;
   padding: 10px 0;
-  font-size: 0.875rem;
   background-color: #fff;
 }
 
@@ -133,8 +138,6 @@ main {
 
 
 main h2 {
-  font-size: 0.875rem;
-  /* text-align: center; */
   color: #342647;
 }
 
@@ -154,7 +157,6 @@ section#skills {
 .col {
   margin: 30px 10px;
   padding-bottom: 20px;
-  /* text-align: center; */
 }
 
 .col:hover {
@@ -169,7 +171,6 @@ section#skills {
 .col p {
   margin: 0 auto;
   max-width: 90%;
-  font-size: 0.875rem;
 }
 
 /* %%%%%%%%%% Portfolio %%%%%%%%%% */
@@ -196,7 +197,6 @@ section#skills {
 /* %%%%%%%%%% Contact %%%%%%%%%% */
 #contact {
   padding: 60px 0 50px;
-  /* text-align: center; */
   color: #7F7F7F;
   background-color: #FAFAFA;
 }
@@ -233,10 +233,6 @@ footer {
   padding: 30px 15px;
   height: 100px;
   background-color: #FAFAFA;
-}
-
-footer h2 {
-  font-size: 0.875rem;
 }
 
 footer nav {
