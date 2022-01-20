@@ -64,12 +64,14 @@ header nav {
 }
 
 h1 {
-  letter-spacing: .1px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  text-align: center;
 }
 
-h1, .top-nav {
+.top-nav {
   text-align: center;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .top-nav {
@@ -243,9 +245,9 @@ footer {
 }
 
 footer h2 {
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.875rem;
-  font-weight: 800;
-  letter-spacing: -0.02rem;
+  font-weight: 700;
 }
 
 .footer-nav {
