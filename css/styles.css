@@ -122,34 +122,44 @@ main h2 {
   text-align: center;
 }
 
-/* %%%%%%%%%% Portfolio %%%%%%%%%% */
-section#portfolio {
+section#portfolio,
+section#skills {
   padding: 10px;
   margin: 0 auto;
   max-width: 1024px;
   background-color: #fff;
 }
 
-#portfolio h2 {
+#portfolio h2,
+#skills h2 {
   margin: 40px 0;
 }
 
 .col {
   margin: 30px 10px;
   padding-bottom: 20px;
-  min-height: 250px;
   text-align: center;
+  /* background-color: palevioletred; */ /* !!!!! DELETE !!!!! */
 }
 
 .col h3 {
-  margin: 20px 0 15px;
   font-weight: 600;
   letter-spacing: -0.03rem;
 }
 
 .col p {
-  margin: 10px;
+  margin: 0 auto;
+  max-width: 90%;
   font-size: 0.875rem;
+}
+
+/* %%%%%%%%%% Portfolio %%%%%%%%%% */
+#portfolio col {
+  min-height: 250px;  
+}
+
+#portfolio h3 {
+  margin: 20px 0 15px;
 }
 
 /* .box-1 {
@@ -175,6 +185,18 @@ section#portfolio {
 .box-6 {
   background-color: white;
 } */
+
+/* %%%%%%%%%% Skills %%%%%%%%%% */
+#skills div.col {
+  padding-top: 20px;
+}
+
+#skills col {
+  min-height: 150px;
+}
+#skills h3 {
+  margin: 0 auto 20px;
+}
 
 /* %%%%%%%%%% Contact %%%%%%%%%% */
 #contact {
