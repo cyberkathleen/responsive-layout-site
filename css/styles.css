@@ -149,7 +149,10 @@ section#skills {
   margin: 30px 10px;
   padding-bottom: 20px;
   text-align: center;
-  /* background-color: palevioletred; */ /* !!!!! DELETE !!!!! */
+}
+
+.col:hover {
+  box-shadow: 0 0 20px 1px #000;
 }
 
 .col h3 {
